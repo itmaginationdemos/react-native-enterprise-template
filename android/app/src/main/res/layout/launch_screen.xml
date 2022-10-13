@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/status_bar_color"
+                android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="252dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="101dp"
+        android:layout_marginBottom="13dp"
+        android:contentDescription="@string/splash_screen_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_screen_image" />
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginBottom="128dp"
+            android:gravity="center_horizontal"
+            android:text="@string/text_view"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+</RelativeLayout>
